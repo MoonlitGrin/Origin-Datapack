@@ -1,0 +1,27 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:weakness",
+      "duration": 255,
+      "amplifier": 0,
+      "show_particles": false,
+      "show_icon": true
+    }
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:daytime"
+      },
+      {
+        "type": "origins:exposed_to_sun"
+      }
+    ]
+  },
+  "name": "Fatal Sunlight",
+  "description": "Your revived state was not designed to be exposed to sunlight, which causes your form to weaken."
+}
