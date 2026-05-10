@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "farmersdelight:honey_glazed_ham",
+    "farmersdelight:shepherds_pie",
+    "farmersdelight:mutton_chops",
+    "farmersdelight:cooked_mutton_chops",
+    "farmersdelight:mutton_wrap",
+    "farmersdelight:hamburger",
+    "farmersdelight:chicken_sandwich",
+    "farmersdelight:bacon_sandwich",
+    "farmersdelight:chicken_cuts",
+    "farmersdelight:cooked_chicken_cuts",
+    "farmersdelight:bacon",
+    "farmersdelight:cooked_bacon",
+    "farmersdelight:salmon_roll",
+    "farmersdelight:cod_roll",
+    "farmersdelight:barbecue_stick",
+    "farmersdelight:baked_cod_stew",
+    "farmersdelight:fish_stew",
+    "farmersdelight:beef_stew",
+    "farmersdelight:chicken_soup",
+    "meadow:raw_buffalo_meat",
+    "meadow:cooked_buffalo_meat",
+    "meadow:sausage_with_cheese",
+    "brewery:half_chicken",
+    "brewery:fried_chicken",
+    "brewery:pork_knuckle",
+    "brewery:sausage"
+  ]
+}

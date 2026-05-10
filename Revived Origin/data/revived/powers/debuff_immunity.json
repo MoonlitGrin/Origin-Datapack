@@ -1,0 +1,9 @@
+{
+  "type": "origins:effect_immunity",
+  "effects": [
+    "minecraft:wither",
+    "minecraft:poison"
+  ],
+  "name": "Non-Living Body",
+  "description": "Being a revived form, Wither and Poison have no effect on you."
+}

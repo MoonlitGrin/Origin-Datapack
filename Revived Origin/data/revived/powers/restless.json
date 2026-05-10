@@ -1,0 +1,7 @@
+{
+  "type": "origins:prevent_sleep",
+  "message": "The guilt keeps you awake; your mind is too loud to rest.",
+  "set_spawn_point": true,
+  "name": "Restless Mind",
+  "description": "You are unable to sleep due to the weight of your past mistakes."
+}

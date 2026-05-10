@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "origins:fall_immunity",
+    "revived:levitate",
+    "revived:debuff_immunity",
+    "revived:restless",
+    "revived:carnivore",
+    "revived:fragile",
+    "revived:undead_ally"
+  ],
+  "icon": "minecraft:ghast_tear",
+  "order": 10,
+  "impact": 2,
+  "name": "Revived",
+  "description": "Having made a mistake in your lifetime, you are now but a remnant of your past - the only thing resembling your previous form is your personality."
+}

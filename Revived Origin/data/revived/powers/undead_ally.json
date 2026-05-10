@@ -1,0 +1,27 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "team add undead_team"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "team join undead_team @s"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "team join undead_team @e[type=#minecraft:skeletons,distance=..30]"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "team join undead_team @e[type=zombie,distance=..30]"
+      }
+    ]
+  },
+  "name": "Ally to the Undead",
+  "description": "Undead mobs recognize you as one of their own due to your revived form, and will not attack you."
+}

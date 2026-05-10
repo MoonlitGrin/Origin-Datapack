@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "value": -2,
+    "operation": "addition"
+  },
+  "name": "Fragile Form",
+  "description": "Revival has left your body weaker, leaving you with one less heart than others."
+}

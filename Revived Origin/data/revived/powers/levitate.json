@@ -1,0 +1,30 @@
+{
+  "type": "origins:multiple",
+  "name": "Ascension",
+  "description": "Levitate up into the air on command (Toggle with Primary Key)",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  },
+  "apply_levitation": {
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "revived:levitate_toggle"
+    },
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:levitation",
+        "duration": 25,
+        "amplifier": 1,
+        "show_particles": false,
+        "show_icon": false
+      }
+    }
+  }
+}
