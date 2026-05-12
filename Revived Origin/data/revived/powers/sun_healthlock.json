@@ -1,0 +1,17 @@
+{
+  "type": "origins:conditioned_attribute",
+  "attribute": "minecraft:generic.max_health",
+  "modifier": {
+    "name": "Revived Sunlight Health Penalty",
+    "attribute": "minecraft:generic.max_health",
+    "value": -6,
+    "operation": "addition"
+  },
+  "tick_rate": 1,
+  "update_health": true,
+  "condition": {
+    "type": "origins:exposed_to_sun"
+  },
+  "name": "Nocturnal",
+  "description": "Your max health drops by another few hearts when in direct sunlight, you can fix this by going into shade."
+}
